@@ -10,7 +10,7 @@ function Hero() {
 				{/* call to atcion */}
 				<div className="postion-relative">
 					<p className="position-absolute top-50 start-50 translate-middle fs-1">
-						Xhantilomzi Mfecane
+						Xhantilomzi Mfecane wow
 					</p>
 				</div>
 			</div>
