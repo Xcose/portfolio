@@ -4,7 +4,7 @@ function SiteNav() {
 	return (
 		<nav class="navbar navbar-expand-lg bg-transparent" id="siteNav">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand text-white" href="#">
 					Navbar
 				</a>
 				<button
