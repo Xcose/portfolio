@@ -1,6 +1,6 @@
 import React from "react";
 import SiteNav from "../../Shared/navbar";
-import BGI from "../../images/blackfeathers.jpg";
+import BGI from "../../images/blake-connally.jpg";
 
 function Hero() {
 	return (
@@ -8,8 +8,9 @@ function Hero() {
 			className="vh-100"
 			id="home"
 			style={{
-				background: `url(${BGI})  no-repeat center center fixed`,
+				background: `url(${BGI}) no-repeat center center fixed rgba(0, 0, 0, 0.75)`,
 				backgroundSize: "cover",
+				backgroundBlendMode: "multiply",
 			}}
 		>
 			<div className="h-100 text-white">
@@ -17,7 +18,7 @@ function Hero() {
 				<SiteNav />
 				{/* call to atcion */}
 				<div className="postion-relative">
-					<p className="position-absolute top-50 start-50 translate-middle fs-1">
+					<p className="position-absolute top-50 start-50 translate-middle display-3 border border-danger border-5 p-5">
 						Xhantilomzi Mfecane
 					</p>
 				</div>

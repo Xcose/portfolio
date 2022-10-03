@@ -4,6 +4,7 @@ import Bio from "../Components/Home/Bio";
 import Education from "../Components/Home/Education";
 import Projects from "../Components/Home/Projects";
 import Skills from "../Components/Home/Skills";
+import Footer from "../Shared/Footer";
 
 function Home() {
 	return (
@@ -20,6 +21,7 @@ function Home() {
 				<Education />
 				<Projects />
 				<Skills />
+				<Footer />
 			</div>
 		</React.Fragment>
 	);
