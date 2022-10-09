@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "../images/Logo.svg";
 
 function SiteNav() {
 	return (
 		<nav class="navbar navbar-expand-lg bg-transparent" id="siteNav">
-			<div class="container-fluid">
+			<div class="container">
 				<a class="navbar-brand text-white" href="#">
-					Navbar
+					<img src={logo} alt="" width="35" height="29" />
 				</a>
 				<button
 					class="navbar-toggler"
@@ -22,27 +23,27 @@ function SiteNav() {
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="#home">
-								Home
+								HOME
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#bio">
-								Bio
+								BIO
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#education">
-								Education
+								EDUCATION
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#project">
-								Project
+								PROJECTS
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#skills">
-								Skills
+								SKILLS
 							</a>
 						</li>
 					</ul>
