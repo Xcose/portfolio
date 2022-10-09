@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../images/Logo.svg";
 
-function SiteNav() {
+const SiteNav = () => {
+	const [isDark, setIsDark] = useState(false);
+
+	const changeNavbarBackground = () => {
+		if (window.scrollY >= window.outerHeight - 200) {
+			setIsDark(true);
+		} else {
+			setIsDark(false);
+		}
+	};
+
+	window.addEventListener("scroll", changeNavbarBackground);
+
 	return (
-		<nav class="navbar navbar-expand-lg bg-transparent" id="siteNav">
+		<nav
+			class={`navbar navbar-expand-lg ${
+				isDark ? "bg-dark" : "bg-transparent"
+			} position-fixed w-100`}
+			id="siteNav"
+		>
 			<div class="container">
 				<a class="navbar-brand text-white" href="#">
 					<img src={logo} alt="" width="35" height="29" />
@@ -51,6 +68,6 @@ function SiteNav() {
 			</div>
 		</nav>
 	);
-}
+};
 
 export default SiteNav;
