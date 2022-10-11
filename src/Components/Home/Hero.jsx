@@ -27,7 +27,7 @@ function Hero() {
 						Xhantilomzi Mfecane
 					</div>
 					<div className="position-absolute bottom-0 start-50 translate-middle-x">
-						<a href="#bio" class="btn btn-outline-danger rounded-pill">
+						<a href="#bio" class="btn btn-outline-danger rounded-pill my-5">
 							All about you
 						</a>
 					</div>

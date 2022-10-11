@@ -22,7 +22,7 @@ const SiteNav = () => {
 			id="siteNav"
 		>
 			<div class="container">
-				<a class="navbar-brand text-white" href="#">
+				<a class="navbar-brand text-white" href="#home">
 					<img src={logo} alt="" width="35" height="29" />
 				</a>
 				<button
